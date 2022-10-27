@@ -1,9 +1,11 @@
-imgOverTCPIP forked from impedevted, credits to : Apiwat Pitaksin 
+memoryOverTCPIP
 
 This c++ basic example is able to send and recieve :
 
-		1. Text messages.
-		2. Files, for example pictures.
+		1.	Text messages.
+		2.	Files, for example pictures.
+		3.	Send endless memory over the internet with the help of a custom build data chunker.
+			
 
 
 ![imgOverTCPIP](https://github.com/grotius-cnc/imgOverTCPIP/blob/main/GitHubSample.png)
@@ -16,16 +18,38 @@ The code has 2 projects wich are build by the toplevel cmake file.
 
 How it works.
 
-Program cyclus:
+Program cyclus for the memory transfer:
 
 	1. 	The server will wait until the client is up.
-	2. 	When client is up, it will transfer the picture trough 
+	2. 	When client is up, it will transfer the memory trough 
 		the socket connection to the server.
-	3. 	The server will recieve packages and will send a confirmation 
-		text message to the client to keep the process going.
-	4. 	When the client has recieved the text message, 
-		it will send the next package cq. chunk until data transfer 
-		is completed.
+	3. 	The server will recieve a memory package and will send a confirmation 
+		text message back to the client to keep the process going.
+	4. 	When the client has recieved the confirmation text message, 
+		it will send the next memory package until transfer 
+		is complete.
+		
+Explaining sending memory over the internet:
+
+	Some of us will just save a openGl texture to a file, 
+	open and recreate the texture in a other
+	program and show the output on the screen. This wil result in a slow update
+	ratio. Transferring the memory would be more effiecent.
+	
+	So i build a memory chunker first. This took me 2 day's inluding testing.
+	The chunker creates packages (chunks) from the memory size.
+	
+	After that i was able to create a server-client program.
+	
+	Now it can transfer raw memory data. 
+	
+	You can think about not saving the texture or bitmap to a file before transferring.
+	No it now sends the packages in the gluBytes, or whatever. 
+	
+	The chunker has a tiny template class where more datatypes are welcome to transfer.
+	
+	So far so good, No threading and no mutex is show'n today.
+	
 		
 Considerations:
 		
