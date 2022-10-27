@@ -99,16 +99,9 @@ Considerations:
 		is really transferred. 
 		I have experienced data losses in other socket examples.
 
-Performance:
-
-	When not outcommented, std::chrono log's the transfer time. 
-	
-	The attached picture = 572,7 KiB (586403 B) 
-	Transfer time : ~10ms
-
-To build the project:
+To build the project including submodule lodepng :
 		
-	clone https://github.com/grotius-cnc/imgOverTCPIP.git
+	clone --recurse-submodules https://github.com/grotius-cnc/imgOverTCPIP.git
 	mkdir build
 	cd build
 	cmake .. 
