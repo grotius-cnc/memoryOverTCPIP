@@ -17,7 +17,7 @@ This c++ basic example is able to send and recieve :
 			Can be easy encrypted to some spacy language.
 
 
-![imgOverTCPIP](https://github.com/grotius-cnc/imgOverTCPIP/blob/main/ManInTheMiddle.png)
+![MemoryOverTCPIP](https://github.com/grotius-cnc/memoryOverTCPIP/blob/main/ManInTheMiddle.png)
 
 
 Skynet Cyberdyne ported the original code 
