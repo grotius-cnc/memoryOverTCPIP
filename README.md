@@ -4,11 +4,20 @@ This c++ basic example is able to send and recieve :
 
 		1.	Text messages.
 		2.	Files, for example pictures.
-		3.	Send endless memory over the internet with the help of a custom build data chunker.
+		3.	Send endless memory over the internet with 
+			the help of a custom build data chunker and
+			server-client sockets.
 			
+			An implementation could be:
+			
+			Stream openGl textures without any modification 
+			or in between steps straight trough the socket.
+			
+			Eliminate's in between steps.
+			Can be easy encrypted to some spacy language.
 
 
-![imgOverTCPIP](https://github.com/grotius-cnc/imgOverTCPIP/blob/main/GitHubSample.png)
+![imgOverTCPIP](https://github.com/grotius-cnc/imgOverTCPIP/blob/main/ManInTheMiddle.png)
 
 
 Skynet Cyberdyne ported the original code 
