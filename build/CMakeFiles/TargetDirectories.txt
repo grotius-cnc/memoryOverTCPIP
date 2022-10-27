@@ -1,0 +1,8 @@
+/home/user/XCreator/vendor/memoryOverTCPIP/build/CMakeFiles/rebuild_cache.dir
+/home/user/XCreator/vendor/memoryOverTCPIP/build/CMakeFiles/edit_cache.dir
+/home/user/XCreator/vendor/memoryOverTCPIP/build/server/CMakeFiles/rebuild_cache.dir
+/home/user/XCreator/vendor/memoryOverTCPIP/build/server/CMakeFiles/edit_cache.dir
+/home/user/XCreator/vendor/memoryOverTCPIP/build/server/CMakeFiles/server.dir
+/home/user/XCreator/vendor/memoryOverTCPIP/build/client/CMakeFiles/rebuild_cache.dir
+/home/user/XCreator/vendor/memoryOverTCPIP/build/client/CMakeFiles/edit_cache.dir
+/home/user/XCreator/vendor/memoryOverTCPIP/build/client/CMakeFiles/client.dir
